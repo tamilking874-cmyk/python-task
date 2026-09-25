@@ -1,0 +1,152 @@
+#1
+num = int(input("enter a number :"))
+if num % 2==0:
+    print("even")
+else:
+    print("odd")
+
+a = int(input("enter a age: "))
+if a >= 18:
+    print("eligible to vote")
+else:
+    print("not eligible to vote ")
+ 
+age =int(input("enter a number"))
+if age >= 18 :
+    print("positive")
+else:
+    print("negative")
+
+
+a = int(input("enter a number"))
+if a >= 50:
+    print("passed")
+else:
+    print("falied")
+
+a =int(input("enter a number"))
+if a % 5==0:
+    print("yes")
+else:
+    print("not")
+
+mark = int(input("enter a mark"))
+if mark > 90:
+    print("grade a")
+elif mark > 80:
+        print("grade b")
+elif mark > 70:
+    print("grade c")
+         
+else:
+    print("grade ")
+
+
+num =int(input("enter a largest three number"))
+if num ==  69:
+     print("largest first number")
+elif num == 55:
+     print("second largest number ")
+elif num == 50:
+     print("third largest number")
+else:
+     print("lowest number") 
+
+
+day = int(input("enter a number (1-7):"))
+if  day == 1:
+    print("sunday")
+elif day == 2:
+    print("monday")
+elif day == 3:
+    print("tuesday")
+elif day == 4:
+    print("wednesday")
+elif day == 5:
+    print("thursday")
+elif day == 6:
+    print("friday")
+elif day == 7:
+    print("saturday")
+else:
+    print("no week")
+                    
+
+units =int(input("enter a units cousumed"))
+if units <= 100:
+    print("low useage")
+elif units <= 200:
+    print("medium useage")
+elif units <= 300:
+    print("high useage")
+else:
+    print("very high useage")
+
+
+age = int(input("enter a age "))
+if age>= 18:
+    print("eligible to drive a bike")
+elif age>= 20:
+    print("eligible to drive a car")
+else:
+    print("not eligible")
+
+username = input("enter username: ")
+password = input("enter a password: ")
+if username == "joy" and password == "12345":
+    print("login successful")
+else:
+    print("worng username or password ")
+
+budget = int(input("enter your budget: "))
+brand = input("enter laptop brand: ")
+if budget >= 50000 and brand == "hp":
+    print("you bye a laptop")
+else:
+    print("you can not bye laptop")
+    
+attendance = int(input("enter attendance :"))
+if attendance >= 75:
+    mark = int(input("enter mark :"))
+if mark >= 50:
+    print("eligible and passed")
+else:
+    print("eligible but falied")
+
+12
+
+pin= 1234
+balance = 10000
+enter_pin =int(input("enter pin: "))
+if enter_pin == pin:
+    amount = int(input("enter withdrawal amount: "))
+    if amount >= balance:
+        print("withdrawal successful")
+else:
+    print("worng pin ")
+
+                 
+pin= 1234
+balance = 10000
+enter_pin =int(input("enter pin: "))
+if enter_pin == pin:
+    amount = int(input("enter withdrawal amount: "))
+    if amount >= balance:
+        print("withdrawal successful")
+        print("remaining balance:")
+else:
+    print("worng pin ")            
+"""
+num = int(input("enter number of tickets: "))
+if num <= 120:
+    print("avaible")
+    age = int(input("enter your age: "))
+    if age >= 18:
+        print("allowed")
+    movie =(input(...))
+    if movie == "spiderman":
+        print("spiderman")
+
+else:
+     print("movie not avaible")
+                
